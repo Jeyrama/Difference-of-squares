@@ -16,3 +16,7 @@ function differenceOfSquares(x) {
 } 
 
 // or
+
+function differenceOfSquares(x) {
+  return Math.pow(x * (x + 1) / 2, 2) - Math.round(x / 6 * (x + 1)
+}
